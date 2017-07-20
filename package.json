@@ -1,0 +1,50 @@
+{
+  "name": "node-typescript-restful-api",
+  "version": "0.1.0",
+  "description": "A RESTful API using NodeJS and Typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon --inspect ./dist/index.js",
+    "grunt": "grunt",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/index.js"
+  },
+  "engines": {
+    "node": "8.2.0",
+    "npm": "5.3.0"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api",
+    "typescript",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "GreenMonkeyBoy",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.11.1",
+    "mongoose-unique-validator": "^1.0.5",
+    "morgan": "^1.8.2",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "validator": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.8",
+    "@types/body-parser": "^1.16.4",
+    "@types/morgan": "^1.7.32",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.16",
+    "nodemon": "^1.11.0",
+    "typescript": "^2.4.1"
+  }
+}
